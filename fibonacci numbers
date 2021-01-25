@@ -1,0 +1,12 @@
+n = int(input("Enter the terms:"))
+t = 0
+s = 1
+sum = 0
+count = 1
+print("fibonacci numbers: ",end = " ")
+while(count <= n):
+    print(sum,end = " ")
+    count += 1
+    t = s
+    s = sum
+    sum = t+s
